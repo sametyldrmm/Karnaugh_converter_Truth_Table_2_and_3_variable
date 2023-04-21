@@ -1,0 +1,1 @@
+# Karnaugh_converter_Truth_Table_2_and_3_variable
