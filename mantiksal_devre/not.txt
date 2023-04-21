@@ -1,0 +1,12 @@
+
+karnaugh diyagramı neden kullanılır
+
+Tablodaki girdi değişkenlerinin her birinin binary (ikili) değerlerini (0 veya 1) alabileceği durumlarda doğruluk tablosu oluşturmak istiyorsak, her bir değişkenin binary değerleri ile oluşabilecek tüm kombinasyonları hesaplayarak tablonun her bir satırını oluşturabiliriz. Ancak, bu yöntemle tablo oluşturmak için çok fazla sayıda satır ve çok fazla hesaplama gerekebilir.
+
+Karnaugh diyagramı ise, boolean fonksiyonlarını daha az sayıda hücre kullanarak görselleştirmek için kullanılan bir tekniktir. Bu hücreler, boolean fonksiyonunun binary girdi değişkenleri için tüm kombinasyonlarını gösterirler. Her hücre, bu kombinasyonlardan birinin sonucunu temsil eder.
+
+Karnaugh diyagramını kullanarak, boolean fonksiyonlarının daha az sayıda hücre ile görselleştirilebileceği durumlarda, bu hücreleri gruplayarak doğru bir şekilde analiz edebiliriz. Gruplandıktan sonra, her bir grupta yer alan hücrelerin binary girdi değişkenleri için tüm kombinasyonları ayrı ayrı hesaplamak yerine, gruplanmış hücrelerin ortak boolean değerlerine sahip olduğu varsayılır. Bu sayede, doğruluk tablosunu daha az sayıda satıra indirgemek mümkündür.
+
+Bu nedenle, Karnaugh diyagramını kullanarak boolean fonksiyonlarını analiz etmek, daha az hesaplama ile doğruluk tablosunu oluşturmak için oldukça kullanışlı bir yöntemdir.
+
+ilk akla gelen yöntem ile yapmaya kalkar isek yani tum durumları ele alıp ona göre bir çıktı vermek gibi. Bu yöntem karnaugh diyagramı mantığına tamamen ters düşen bir yöntem olacaktır. Amaç daha az bellek kullanımı ile bu işi halletmektir.
